@@ -1,0 +1,85 @@
+*{
+    box-sizing:border-box;
+}
+
+
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
+header{  
+    background-color: rgb(1, 1, 94);
+    display: flex;
+    justify-content: space-around;
+    align-items: center 
+ }
+
+ a{
+     color: cadetblue;
+     margin: 30px;
+     text-decoration: none;
+ }
+
+ .contact{
+     color: cornflowerblue;
+     background-color: darkblue;
+     padding: 12px 30px;
+     border-radius: 8px;
+     text-decoration: none;
+     transition: 1ms;
+ }
+
+ .contact:hover{
+     background-color: rgba(0, 0, 139, 0);
+     transform: scale(1.1);
+ }
+
+ button{
+     font-family: 'Open Sans', sans-serif ;
+     background-color: rgb(80, 82, 82);
+     color: rgb(124, 129, 129);
+     padding: 12px 30px;
+     border-radius:8 px ;
+     border: none;
+ }
+
+ main{
+     background-image:linear-gradient(to top,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0)), url(back1.jpg);
+     background-size: cover;
+     min-height: 90vh;
+     text-align: center;
+     padding-top: 70px;
+     padding-battom:50px;
+ }
+
+ h1{
+     margin: 0;
+     font-size: 70px;
+ }
+
+ .descr{
+     font-size: 30px;
+ }
+
+ aside{
+     display: flex;
+     justify-content: space-around;
+     padding: 50px 0;
+ }
+
+ div{
+     border: rgb(0, 0, 0) 2px solid;
+     width: 30%; 
+     padding: 20px;
+     text-align: center;
+     background-color: rgb(247, 242, 176)     
+ }
+
+ footer{
+     background-color: blue
+      
+ }
