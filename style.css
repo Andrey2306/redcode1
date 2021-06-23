@@ -80,6 +80,40 @@ header{
  }
 
  footer{
-     background-color: blue
-      
+     background-color: blue;
+      padding 30px;
+
  }
+
+ @media(max-width:500px) {
+  header{
+      display: block;
+      paddind: 15px 5px;
+      text-align:center;
+    }
+
+    header a{
+        display: inline-block;
+    }
+ 
+    h1{
+        font-size: 40px;
+    }
+
+    .descr{
+        font-size: 20px;
+    }
+
+    aside{
+        dispay: block;
+    }
+
+    div{
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    img{
+        max-width: 100%;
+    }
+} 
